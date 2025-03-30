@@ -13,6 +13,30 @@ npm install zustand axios react-hook-form @heroicons/react framer-motion
 
 ```
 
+### Struktur
+
+````
+/src
+  /app
+    layout.tsx
+    page.tsx
+  /components
+    /ui
+      Button.tsx
+      Card.tsx
+    /icons
+      AppleIcons.tsx
+  /constants
+    theme.ts
+  /stores
+    authStore.ts
+  /features
+    /auth
+      LoginForm.tsx
+    /discover
+      ProfileCard.tsx
+````
+
 ### Getting Started
 
 ````
