@@ -15,6 +15,7 @@ npm install zustand axios react-hook-form @heroicons/react framer-motion
 
 ### Getting Started
 
+````
 npm run dev
 # or
 yarn dev
@@ -22,3 +23,4 @@ yarn dev
 pnpm dev
 # or
 bun dev
+````
