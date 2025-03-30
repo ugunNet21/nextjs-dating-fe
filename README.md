@@ -13,6 +13,15 @@ npm install zustand axios react-hook-form @heroicons/react framer-motion
 
 ```
 
+### Install Lib
+
+````
+npm install next react react-dom
+npm install -D typescript @types/react @types/node
+npm install framer-motion axios
+
+````
+
 ### Struktur
 
 ````
@@ -35,6 +44,78 @@ npm install zustand axios react-hook-form @heroicons/react framer-motion
       LoginForm.tsx
     /discover
       ProfileCard.tsx
+````
+
+````
+/src
+  /app
+    layout.tsx
+    page.tsx
+    /(auth)
+      login/page.tsx
+      register/page.tsx
+    /(main)
+      discover/page.tsx
+      matches/page.tsx
+      messages/page.tsx
+      profile/page.tsx
+      notifications/page.tsx
+  /components
+    /ui
+      Button.tsx
+      Card.tsx
+      Input.tsx
+      Avatar.tsx
+      Badge.tsx
+      SwipeControls.tsx
+      Toast.tsx
+    /icons
+      AppleIcons.tsx
+      MaterialIcons.tsx
+    /navigation
+      BottomNav.tsx
+      TabBar.tsx
+    /profile
+      ProfileHeader.tsx
+      EditProfileForm.tsx
+    /discover
+      SwipeCard.tsx
+    /matches
+      MatchCard.tsx
+    /messages
+      MessageBubble.tsx
+      ConversationList.tsx
+  /constants
+    theme.ts
+    colors.ts
+    endpoints.ts
+  /stores
+    authStore.ts
+    userStore.ts
+    matchStore.ts
+    notificationStore.ts
+  /features
+    /auth
+      LoginForm.tsx
+      RegisterForm.tsx
+    /discover
+      ProfileCard.tsx
+      DiscoveryScreen.tsx
+    /matches
+      MatchesList.tsx
+      ChatScreen.tsx
+    /profile
+      ProfileScreen.tsx
+      EditProfileScreen.tsx
+  /hooks
+    useAuth.ts
+    useMatches.ts
+    useSwipe.ts
+  /utils
+    api.ts
+    date.ts
+    validation.ts
+    
 ````
 
 ### Getting Started

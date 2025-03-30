@@ -1,21 +1,16 @@
 // src/constants/theme.ts
 export const colors = {
-    primary: '#007AFF', // iOS blue
-    secondary: '#5856D6', // iOS purple
-    background: '#F2F2F7', // iOS system gray6
-    card: '#FFFFFF',
-    text: '#1C1C1E',
-    textSecondary: '#8E8E93',
-    success: '#34C759', // iOS green
-    warning: '#FF9500', // iOS orange
-    error: '#FF3B30', // iOS red
-    separator: '#C6C6C8',
-  }
-  
-  export const spacing = {
-    xs: 4,
-    sm: 8,
-    md: 16,
-    lg: 24,
-    xl: 32,
-  }
+  background: '#FFFFFF', // White background
+  primary: '#FF5864',   // Primary pink/red color
+  secondary: '#FE904B', // Secondary orange color
+  text: '#333333',      // Dark text
+  textSecondary: '#666666', // Secondary text
+  border: '#E8E8E8',    // Light border color
+  card: '#F8F8F8',      // Card background
+  success: '#4CAF50',   // Success green
+  error: '#F44336',     // Error red
+  warning: '#FFC107',   // Warning yellow
+  info: '#2196F3',      // Info blue
+} as const;
+
+export type Colors = typeof colors;
